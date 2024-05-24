@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-color: #fefae0;
+    background-color: #fff0eb;
 }
 
 .shopname{
@@ -15,11 +15,7 @@ body{
     display: flex;
     width: 100%;
     overflow-x: auto;
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #bdd9bf;
+    background-color: #2d0b00;
 }
 
 .container .item{
@@ -28,21 +24,21 @@ body{
 }
 
 .outerbox{
-    background-color: #fefae0;
+    background-color: #fff0eb;
 }
 
 b{
-    font-size: 1.1rem;
+    font-size: 0.7rem;
 }
 .img{
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     border-radius: 10px;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .juice{
@@ -56,8 +52,8 @@ a{
 
 .juiceimg{
     border-radius: 30px;
-    height: 180px;
-    width: 180px;
+    height: 150px;
+    width: 150px;
     padding: 0.5rem;
   
     
@@ -66,4 +62,9 @@ a{
 
 .creater{
     text-align: center;
+    color: black;
+}
+
+strong{
+    font-size: 0.9rem;
 }
